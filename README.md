@@ -30,6 +30,21 @@ In the Firebase console:
 
 ### 3. Create a Firestore Database
 - Go to `Firestore Database` in the Firebase console.
+- add these rules:
+
+```
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // Allow read and write access to the "messages" collection for authenticated users
+    match /messages/{messageId} {
+      allow read, write: if request.auth != null;
+    }
+  }
+}
+
+```
+
 - Click `Create database` and set it up in production mode.
 
 ### 4. Create a Web App in Firebase
