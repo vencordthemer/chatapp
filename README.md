@@ -1,4 +1,4 @@
-# Project Setup
+# Setup
 
 ## Prerequisites
 Before you start, make sure you have the following installed:
