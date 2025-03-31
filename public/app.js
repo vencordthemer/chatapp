@@ -5,13 +5,7 @@ import { getFirestore, collection, addDoc, onSnapshot, serverTimestamp, query, o
 
 // Firebase configuration
 const firebaseConfig = {
-    apiKey: "AIzaSyBF5UC2EN49dCWMl5AkOKZ8jmp4D-DD0II",
-    authDomain: "midcord-196e6.firebaseapp.com",
-    projectId: "midcord-196e6",
-    storageBucket: "midcord-196e6.appspot.com",
-    messagingSenderId: "943905563668",
-    appId: "1:943905563668:web:50442d9e49f90abdd17301",
-    measurementId: "G-1DF35LEQ73"
+ // Firebase config
 };
 
 // Initialize Firebase
