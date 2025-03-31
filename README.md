@@ -53,7 +53,7 @@ service cloud.firestore {
 - Register the app and copy the Firebase config object.
 
 ### 5. Add Firebase Config to `app.js`
-Replace `your-firebase-config` with the config object from Firebase:
+Replace the planceholder with the correct detailed in the `app.js` with the config object from Firebase:
 
 ```js
 const firebaseConfig = {
